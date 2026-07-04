@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veloura Hotels – Luxury Resort &amp; Spa</title>
+<meta name="description" content="Veloura Hotels & Resorts — breathtaking stays, elegant suites, world-class dining, and unforgettable memories.">
+
+<!-- Fonts: Cormorant Garamond for display, Manrope for body/UI -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+
+    <a href="#home" class="logo" aria-label="Veloura Hotels home">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="20.5" stroke="currentColor" stroke-width="1"/>
+          <path d="M13 15L22 31L31 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 31L22 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+        </svg>
+      </span>
+      <span class="logo-text">VELOURA</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
+        <li><a href="#rooms" class="nav-link" data-nav>Rooms</a></li>
+        <li><a href="#amenities" class="nav-link" data-nav>Amenities</a></li>
+        <li><a href="#gallery" class="nav-link" data-nav>Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link" data-nav>Testimonials</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+      </ul>
+      <a href="#booking" class="btn btn-gold btn-sm nav-cta ripple">Book Now</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu backdrop -->
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="floating-shapes" aria-hidden="true">
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow reveal-up">Veloura Hotels &amp; Resorts</p>
+    <h1 class="hero-title reveal-up" data-delay="1">Experience Luxury<br>Beyond Expectations</h1>
+    <p class="hero-sub reveal-up" data-delay="2">Discover breathtaking stays, elegant suites, world-class dining, and unforgettable memories.</p>
+
+    <div class="hero-actions reveal-up" data-delay="3">
+      <a href="#booking" class="btn btn-gold ripple">Book Now</a>
+      <a href="#rooms" class="btn btn-outline ripple">Explore Rooms</a>
+    </div>
+  </div>
+
+  <!-- Floating glass booking card -->
+  <div class="booking-card reveal-up" id="booking" data-delay="4">
+    <form class="booking-form" id="bookingForm">
+      <div class="booking-field">
+        <label for="checkin">Check-in</label>
+        <input type="date" id="checkin" name="checkin" required>
+      </div>
+      <div class="booking-divider" aria-hidden="true"></div>
+      <div class="booking-field">
+        <label for="checkout">Check-out</label>
+        <input type="date" id="checkout" name="checkout" required>
+      </div>
+      <div class="booking-divider" aria-hidden="true"></div>
+      <div class="booking-field">
+        <label for="guests">Guests</label>
+        <select id="guests" name="guests">
+          <option>1 Guest</option>
+          <option selected>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4+ Guests</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary booking-search ripple">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Search</span>
+      </button>
+    </form>
+  </div>
+
+  <a href="#rooms" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===================== FEATURED ROOMS ===================== -->
+<section class="section rooms" id="rooms">
+  <div class="container">
+    <p class="section-eyebrow reveal-up">Signature Stays</p>
+    <h2 class="section-title reveal-up">Featured Rooms &amp; Suites</h2>
+    <p class="section-desc reveal-up">Each residence at Veloura is composed, not decorated — considered spaces built for rest, wonder, and quiet indulgence.</p>
+
+    <div class="room-grid">
+
+      <article class="room-card reveal-up" data-delay="1">
+        <div class="room-media">
+          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1200&auto=format&fit=crop" alt="Ocean View Suite bedroom with floor-to-ceiling windows overlooking the sea" loading="lazy">
+          <span class="room-price">$620<small>/night</small></span>
+        </div>
+        <div class="room-body">
+          <div class="room-rating" aria-label="Rated 4.9 out of 5">
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8L10 1.5z" fill="currentColor"/></svg>
+            <span>4.9 (128 reviews)</span>
+          </div>
+          <h3>Ocean View Suite</h3>
+          <p>Wake to uninterrupted horizon views, a private balcony, and a soaking tub framed by morning light.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm ripple">Book Suite</a>
+        </div>
+      </article>
+
+      <article class="room-card reveal-up" data-delay="2">
+        <div class="room-media">
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop" alt="Royal Garden Villa with private terrace and lush greenery" loading="lazy">
+          <span class="room-price">$980<small>/night</small></span>
+        </div>
+        <div class="room-body">
+          <div class="room-rating" aria-label="Rated 5 out of 5">
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8L10 1.5z" fill="currentColor"/></svg>
+            <span>5.0 (94 reviews)</span>
+          </div>
+          <h3>Royal Garden Villa</h3>
+          <p>A secluded villa opening onto tropical gardens, with a plunge pool and dedicated butler service.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm ripple">Book Villa</a>
+        </div>
+      </article>
+
+      <article class="room-card reveal-up" data-delay="3">
+        <div class="room-media">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Presidential Penthouse living area with panoramic city and sea views" loading="lazy">
+          <span class="room-price">$1,850<small>/night</small></span>
+        </div>
+        <div class="room-body">
+          <div class="room-rating" aria-label="Rated 5 out of 5">
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8L10 1.5z" fill="currentColor"/></svg>
+            <span>5.0 (61 reviews)</span>
+          </div>
+          <h3>Presidential Penthouse</h3>
+          <p>Two floors of uncompromising space, a private rooftop lounge, and panoramic views in every direction.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm ripple">Book Penthouse</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== AMENITIES ===================== -->
+<section class="section amenities" id="amenities">
+  <div class="container">
+    <p class="section-eyebrow reveal-up">The Veloura Standard</p>
+    <h2 class="section-title reveal-up">World-Class Amenities</h2>
+    <p class="section-desc reveal-up">Every detail, from arrival to turndown, is held to a single standard: effortless.</p>
+
+    <div class="amenity-grid">
+      <div class="amenity-card reveal-up" data-delay="1">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-1.5 2-2 4-1 6 1.3-1 2.5-1 3.5 0 1 .9 1 2 .3 3.1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M4 14c1.5-2 4-2 5.5 0s0 4-1.5 5-4.5.5-5.5-1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M20 14c-1.5-2-4-2-5.5 0s0 4 1.5 5 4.5.5 5.5-1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Luxury Spa</h3>
+        <p>Rituals inspired by ancient wellness traditions, tailored to you.</p>
+      </div>
+
+      <div class="amenity-card reveal-up" data-delay="2">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 17c1.2 1 2.4 1 3.6 0 1.2-1 2.4-1 3.6 0 1.2 1 2.4 1 3.6 0 1.2-1 2.4-1 3.6 0 1.2 1 2.4 1 3.6 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M6 13V7a2 2 0 012-2h8a2 2 0 012 2v6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Infinity Pool</h3>
+        <p>A horizon-edge pool suspended above the coastline.</p>
+      </div>
+
+      <div class="amenity-card reveal-up" data-delay="3">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 3v8a3 3 0 003 3v7M6 3a3 3 0 00-3 3v2a3 3 0 003 3M6 3a3 3 0 013 3v2a3 3 0 01-3 3M18 3c-2 0-3 2-3 5s1 5 3 5v8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Fine Dining</h3>
+        <p>Seasonal tasting menus crafted by award-winning chefs.</p>
+      </div>
+
+      <div class="amenity-card reveal-up" data-delay="4">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M2 8.5a15 15 0 0120 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 12a10 10 0 0113 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M9 15.5a5 5 0 016 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="12" cy="19" r="1.1" fill="currentColor"/></svg>
+        </span>
+        <h3>Free WiFi</h3>
+        <p>High-speed connectivity across every suite and lounge.</p>
+      </div>
+
+      <div class="amenity-card reveal-up" data-delay="5">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 20l4-9 4 4 4-7 4 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Fitness Center</h3>
+        <p>A private studio with skyline views and personal trainers.</p>
+      </div>
+
+      <div class="amenity-card reveal-up" data-delay="6">
+        <span class="amenity-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 13l2-6a2 2 0 012-1.4h10a2 2 0 012 1.4l2 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="2.5" y="13" width="19" height="5" rx="1.4" stroke="currentColor" stroke-width="1.4"/><circle cx="7" cy="18.5" r="1.3" fill="currentColor"/><circle cx="17" cy="18.5" r="1.3" fill="currentColor"/></svg>
+        </span>
+        <h3>Airport Pickup</h3>
+        <p>A private car waiting the moment you land.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <p class="section-eyebrow reveal-up">A Glimpse Inside</p>
+    <h2 class="section-title reveal-up">Gallery</h2>
+    <p class="section-desc reveal-up">Moments captured across the resort — from sunrise terraces to candlelit dinners.</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal-zoom" data-delay="1"><img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=900&auto=format&fit=crop" alt="Infinity pool overlooking the ocean at sunset" loading="lazy"></div>
+      <div class="gallery-item reveal-zoom" data-delay="2"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=900&auto=format&fit=crop" alt="Luxury hotel lobby with elegant lighting" loading="lazy"></div>
+      <div class="gallery-item reveal-zoom" data-delay="3"><img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=900&auto=format&fit=crop" alt="Spa treatment room with candles" loading="lazy"></div>
+      <div class="gallery-item reveal-zoom" data-delay="4"><img src="https://images.unsplash.com/photo-1592229505726-ca121723b8ef?q=80&w=900&auto=format&fit=crop" alt="Fine dining table setting on a terrace" loading="lazy"></div>
+      <div class="gallery-item reveal-zoom" data-delay="5"><img src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?q=80&w=900&auto=format&fit=crop" alt="Private villa exterior with garden" loading="lazy"></div>
+      <div class="gallery-item reveal-zoom" data-delay="6"><img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=900&auto=format&fit=crop" alt="Bedroom suite with ocean view at dusk" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="section testimonials" id="testimonials">
+  <div class="container">
+    <p class="section-eyebrow reveal-up">Guest Stories</p>
+    <h2 class="section-title reveal-up">What Our Guests Say</h2>
+
+    <div class="testimonial-grid">
+      <article class="testimonial-card reveal-up" data-delay="1">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"Every moment felt considered. The staff anticipated things we didn't even know we needed."</p>
+        <div class="testimonial-person">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="Portrait of Amara Chen" loading="lazy">
+          <div>
+            <strong>Amara Chen</strong>
+            <span>Singapore</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal-up" data-delay="2">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"The Royal Garden Villa was beyond anything we imagined. We're already planning our return."</p>
+        <div class="testimonial-person">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="Portrait of Julian Moore" loading="lazy">
+          <div>
+            <strong>Julian Moore</strong>
+            <span>London, UK</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal-up" data-delay="3">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"Quiet, elegant, unhurried. Veloura understands that true luxury is restraint."</p>
+        <div class="testimonial-person">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Portrait of Priya Nair" loading="lazy">
+          <div>
+            <strong>Priya Nair</strong>
+            <span>Mumbai, India</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <a href="#home" class="logo logo-footer">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none"><circle cx="22" cy="22" r="20.5" stroke="currentColor" stroke-width="1"/><path d="M13 15L22 31L31 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 31L22 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.55"/></svg>
+        </span>
+        <span class="logo-text">VELOURA</span>
+      </a>
+      <p>Luxury Resort &amp; Spa — a quiet retreat for those who notice the details.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram" class="social-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Facebook" class="social-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5H14c-2 0-3.5 1.5-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.3l.5-3.5H14V9c0-.3.2-.5.5-.5H14z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></a>
+        <a href="#" aria-label="Twitter" class="social-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 5.5c-.7.4-1.5.6-2.3.8.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4 4 0 00-6.9 3.6C7.7 8.4 5 6.9 3.2 4.6c-.3.6-.5 1.2-.5 2 0 1.3.7 2.5 1.7 3.2-.6 0-1.2-.2-1.7-.5v.1c0 1.9 1.3 3.4 3.1 3.8-.3.1-.7.1-1 .1-.3 0-.5 0-.7-.1.5 1.5 1.9 2.6 3.6 2.7A8 8 0 012 18.4a11.3 11.3 0 006.1 1.8c7.3 0 11.3-6 11.3-11.3v-.5c.8-.6 1.4-1.3 2-2.1" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>12 Sunset Cove Road, Maldives</li>
+        <li>+91 7533456788</li>
+        <li>reservations@veloura.com</li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Offers, openings, and quiet news — occasionally, never often.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit" class="btn btn-gold btn-sm ripple">Subscribe</button>
+      </form>
+      <p class="newsletter-note" id="newsletterNote" aria-live="polite"></p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Veloura Hotels &amp; Resorts. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
