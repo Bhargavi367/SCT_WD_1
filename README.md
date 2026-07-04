@@ -16,8 +16,7 @@
 
 **Veloura** is a premium hotel landing page designed with a focus on modern UI/UX, responsiveness, and smooth user interactions. It was developed as **Task 01** of my **Web Development Internship at SkillCraft Technology**.
 
-The project demonstrates responsive web design principles while implementing an interactive navigation bar that changes style on scroll and provides engaging hover effects.
-
+This project demonstrates responsive web design principles by implementing a fixed interactive navigation bar that changes its appearance on scroll, provides smooth hover effects, and delivers a seamless user experience across desktop, tablet, and mobile devices.
 ---
 
 ##  Features
