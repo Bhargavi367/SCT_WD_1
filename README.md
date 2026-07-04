@@ -1,34 +1,57 @@
-# Veloura – Luxury Hotel Landing Page
+<div align="center">
 
-Veloura is a modern, fully responsive luxury hotel landing page developed using HTML5, CSS3, and JavaScript. This project was created as part of Task 01 of my Web Development Internship at SkillCraft Technology.
+# ✨ Veloura
 
-## About the Project
+### 🏨 Luxury Hotel Landing Page
 
-The objective of this project was to design and develop a responsive landing page with an interactive navigation menu. The navigation bar remains fixed at the top of the page, changes its appearance when scrolling, and provides smooth hover effects for an enhanced user experience.
+*A modern, responsive, and elegant hotel landing page built using HTML, CSS, and JavaScript.*
 
-## Features
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge"/>
 
-- Fully responsive design
-- Fixed sticky navigation bar
-- Navigation bar style changes on scroll
-- Interactive hover effects
-- Modern hero section
-- Featured rooms section
-- Amenities section
-- Customer testimonials
-- Image gallery
-- Smooth scrolling and animations
-- Clean and well-structured code
+</div>
 
-## Technologies Used
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 📖 About the Project
 
-## Project Structure
+**Veloura** is a premium hotel landing page designed with a focus on modern UI/UX, responsiveness, and smooth user interactions. It was developed as **Task 01** of my **Web Development Internship at SkillCraft Technology**.
 
+The project demonstrates responsive web design principles while implementing an interactive navigation bar that changes style on scroll and provides engaging hover effects.
 
+---
+
+## ✨ Features
+
+- 📌 Sticky Navigation Bar
+- 🎨 Scroll-Based Navbar Animation
+- 🖱️ Interactive Hover Effects
+- 📱 Fully Responsive Layout
+- 🏨 Luxury Hero Section
+- 🛏️ Featured Rooms
+- 🌴 Hotel Amenities
+- 💬 Customer Testimonials
+- 🖼️ Responsive Gallery
+- ⚡ Smooth Animations & Transitions
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript | Interactivity |
+
+---
+
+## 📂 Project Structure
+
+```text
 Veloura/
 │── index.html
 │── style.css
@@ -37,40 +60,59 @@ Veloura/
 └── README.md
 ```
 
-## Internship Task
+---
+
+## 🎯 Internship Task
 
 **Task 01 – Responsive Landing Page**
 
-The project fulfills the following requirements:
+✔ Create a fixed navigation menu
 
-- Create an interactive navigation menu.
-- Keep the navigation bar fixed and visible on all pages.
-- Change the navigation bar style when the user scrolls.
-- Add hover effects to navigation menu items.
-- Ensure the website is fully responsive across different devices.
+✔ Change navbar style while scrolling
 
-## Learning Outcomes
+✔ Add hover effects
 
-Through this project, I strengthened my understanding of:
+✔ Build a responsive landing page
+
+✔ Deliver a modern and user-friendly interface
+
+---
+
+## 📚 Learning Outcomes
 
 - Responsive Web Design
 - Semantic HTML
-- CSS Flexbox and Grid
-- CSS Animations and Transitions
+- CSS Flexbox & Grid
+- CSS Animations & Transitions
 - JavaScript DOM Manipulation
-- Scroll-Based User Interface Interactions
-- Front-End Development Best Practices
+- Scroll-Based UI Effects
+- Mobile-First Development
+- Clean Code Practices
 
-## Future Enhancements
+---
 
-- Room booking functionality
-- Contact form validation
-- Backend integration
-- Dark mode
-- Performance optimization
+## 🚀 Future Enhancements
 
-## Author
+- Online Room Booking
+- Dark Mode
+- Contact Form Validation
+- Backend Integration
+- Performance Optimization
+
+---
+
+## 👩‍💻 Developer
 
 **Bhargavi Kilaru**
 
-Web Development Intern at SkillCraft Technology.
+Web Development Intern | Aspiring Front-End Developer
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to star the repository!
+
+**Crafting elegant digital experiences, one interface at a time. ✨**
+
+</div>
