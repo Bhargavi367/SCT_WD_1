@@ -105,14 +105,10 @@ Veloura/
 
 **Bhargavi Kilaru**
 
-Web Development Intern | Aspiring Front-End Developer
+Web Development Intern 
 
 ---
 
-<div align="center">
 
-### ⭐ If you like this project, don't forget to star the repository!
-
-**Crafting elegant digital experiences, one interface at a time. ✨**
 
 </div>
