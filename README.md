@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 About the Project
+##  About the Project
 
 **Veloura** is a premium hotel landing page designed with a focus on modern UI/UX, responsiveness, and smooth user interactions. It was developed as **Task 01** of my **Web Development Internship at SkillCraft Technology**.
 
@@ -24,22 +24,22 @@ The project demonstrates responsive web design principles while implementing an 
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📌 Sticky Navigation Bar
-- 🎨 Scroll-Based Navbar Animation
-- 🖱️ Interactive Hover Effects
-- 📱 Fully Responsive Layout
-- 🏨 Luxury Hero Section
-- 🛏️ Featured Rooms
-- 🌴 Hotel Amenities
-- 💬 Customer Testimonials
-- 🖼️ Responsive Gallery
-- ⚡ Smooth Animations & Transitions
+-  Sticky Navigation Bar
+-  Scroll-Based Navbar Animation
+-  Interactive Hover Effects
+-  Fully Responsive Layout
+-  Luxury Hero Section
+- Featured Rooms
+-  Hotel Amenities
+- Customer Testimonials
+-  Responsive Gallery
+-  Smooth Animations & Transitions
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -62,7 +62,7 @@ Veloura/
 
 ---
 
-## 🎯 Internship Task
+##  Internship Task
 
 **Task 01 – Responsive Landing Page**
 
@@ -78,7 +78,7 @@ Veloura/
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 - Responsive Web Design
 - Semantic HTML
@@ -91,7 +91,7 @@ Veloura/
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Online Room Booking
 - Dark Mode
@@ -101,7 +101,7 @@ Veloura/
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 **Bhargavi Kilaru**
 
